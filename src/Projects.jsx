@@ -6,7 +6,7 @@ import Project4 from './assets/project4.png';
 const Projects = () => {
 
     return(
-    <section className="projects-sec container">
+    <section className="projects-sec container" id='projects'>
         <h2 className="text-center mb-5">Projects</h2>
         {/* Project 1 : Car Rental Web */}
         <div className="project d-flex flex-column align-items-center">

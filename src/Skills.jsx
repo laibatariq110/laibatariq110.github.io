@@ -10,8 +10,8 @@ import sassIcon from './assets/sass.png';
 
 const Skills = () => {
 
-    return (<section className="skills-section" >
-        <h1 className="my-h1 display-2 text-center" id='home'>Front-end React Developer</h1>
+    return (<section className="skills-section" id='home'>
+        <h1 className="my-h1 display-2 text-center" >Front-end React Developer</h1>
         <p className="description-p text-center fs-4 ">
             Hi, I'm Laiba. I am a Front-end React Developer with a passion for creating engaging user interfaces. Skilled in React, JavaScript, and Bootstrap, I focus on building responsive, visually appealing websites that enhance the user experience.
         </p>
