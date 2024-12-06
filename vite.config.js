@@ -1,8 +1,7 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import ghPages from 'vite-plugin-gh-pages';
 
 export default defineConfig({
-  plugins: [react(), ghPages()],
-  base: '/laibatariq110.github.io/', 
+  plugins: [react()],
+  base: '/laibatariq110.github.io/', // Update this with your GitHub Pages repository name
 });
