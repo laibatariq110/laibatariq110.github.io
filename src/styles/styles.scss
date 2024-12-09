@@ -17,11 +17,15 @@ $color-4: hsl(0, 4%, 10%);
     scrollbar-width: thin;
    
 }
-body{
+html{
+    
     overflow-x: hidden;
+}
+body{
     background-color: $color-3;
     font-family: 'Poppins', sans-serif;
 }
+
 //Scrollbar
 /* WebKit browsers (Chrome, Safari, Edge) */
 
@@ -200,8 +204,9 @@ z-index: 1000;
     }
     
 }
-@media(max-width: 529px){
+@media(max-width: 635px){
     .skills-set{
+        flex-direction: column;
         h3{
             font-size: 0.8rem;
             margin-left: 15px;
